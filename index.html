@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Мир шёток</title>
+</head>
+<body>
+    <header>
+        <div class="header__wrapper container">
+            <nav class="nav">
+                    <a class="navigation" href="#">Главная</a>
+                    <a class="navigation" href="#">О нас</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="header__content container">
+            <div class="content_description"> 
+                <h1>Нежная Фурия</h1>
+            <p class="content_subtitle">Эта щетка воплощает в себе красоту и страсть. Мягкие волоски позволяют создать невероятно яркий макияж, который будет гореть как пламя.</p>
+            <div class="btns">
+                <button class="btn">Приобрести щётку</button>
+            </div>
+        </div>
+            <img class="img" src="./1.jpg" alt="">
+           </div>
+           
+           <div class="header__content-2 container">
+            <div class="content_description-1">
+                <h1>Бархатный Кнут</h1>
+                <p class="content_subtitle">Подарите своей коже нежное прикосновение этой щеткой, которая в то же время способна на невероятно смелые цветовые решения. Она как магический шторм в пурпурном исполнении.</p>
+                <div class="btns">
+                    <button class="btn">Приобрести щётку</button>
+                </div>
+               </div>
+               <img class="img1" src="./2.jpg" alt="">
+           </div>
+         </main>
+    <aside>
+   
+        </style>
+      </head>
+      
+      <body>
+        <!-- Swiper -->
+
+     <div class="container">
+        <div class="slider__wrapper">
+            <div class="slider__description">
+                <h1>Выбирай свою кисточку</h1>
+            </div>
+        </div>
+      
+     </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="./2.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="./3.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="./4.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination">
+            </div>
+          </div>
+    </aside>
+    <footer></footer>
+    <script src="/Мир кисточек/JS/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+    const swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + (index + 1) + "</span>";
+          },
+        },
+      });</script>
+    <script> 
+</script>
+</body>
+</html>

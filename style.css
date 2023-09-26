@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    scroll-behavior: smooth;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  img {
+      max-width: 100%;
+      display: block;
+  }
+  
+  .container {
+      max-width: 1164px;
+      margin: 0 auto;
+  }
+
+  .header__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav {
+    display: flex;
+    gap:40px;
+  }
+
+  .navigation {
+    color: aqua;
+  }
+
+  .header__content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 100px;
+  }
+
+  .btns {
+
+}
+
+.btn {
+    color:blue;
+    background: yellow;
+    width: 170px;
+    padding:20px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.content_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content_subtitle {
+    width: 400px;
+}
+
+.header__content-2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.content_description-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img1 {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.slider__wrapper {
+  display: flex;
+  position:relative;
+  left:250px;
+  top:567px;
+}
+
+.slider__description {
+  background-color:#007aff;
+  padding:140px 100px 200px;
+}
+
+.swiper {
+  max-width:377px;  
+  height: 40%;
+  left:300px;
+  position:relative;
+  top: 200px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  position: relative;
+  bottom:10px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size:20px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff;
+}
+
+.content__swiper {
+  display: flex;
+  justify-content: center;
+}
